@@ -1,19 +1,17 @@
 import React from "react";
-import Header from "../../components/header/Header";
 import Posts from "../../components/posts/Posts";
 import Side from "../../components/side/Side";
-import Footer from "../../components/footer/Footer";
 import "./home.css";
+import "../../components/css/common.css";
+import "../../components/css/reset.css"
 
 export default function Home() {
     return (
         <>
-            <Header />
-            <main id="main">
+            <main id="contents">
                 <Posts />
                 <Side />
             </main>
-            <Footer />
         </>
     );
 }

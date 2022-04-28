@@ -1,4 +1,11 @@
+.Icontainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
 .blog__inner {
+    flex: 1 1 30%;
 }
 .blog__search {
     margin-bottom: 80px;

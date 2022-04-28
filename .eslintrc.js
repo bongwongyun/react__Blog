@@ -18,6 +18,7 @@
 //          // prettier 관련 규칙 모음
 //     ],
 //     parserOptions: {
+//         sourceType: "module",
 //         ecmaVersion: 2018,
 //         project: ["./tsconfig.json"],
 //         // tsconfig 파일의 경로를 참조 해줍니다. 

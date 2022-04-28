@@ -1,13 +1,25 @@
 import React from "react";
-// import "./App.css";
 import Home from "./pages/home/Home";
-
-// import Header from "./components/header/Header";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import Footer from "./components/footer/Footer";
+import Header from "./components/header/Header";
+import Login from "./pages/login/Login";
 
 function App() {
     return (
         <>
-            <Home />
+            <Router>
+                <Header />
+                <Switch>
+                    <Route path="/" exact>
+                        <Home />
+                    </Route>
+                    <Route path="/Login">
+                        <Login />
+                    </Route>
+                </Switch>
+                <Footer />
+            </Router>
         </>
     );
 }
