@@ -33,11 +33,11 @@
 }
 #header .menu li a:hover {
     background: rgb(113, 231, 129);
-    border-radius: 5px;
+    border-radius: 10px;
 }
 #header .menu li ul.sub {
     position: absolute;
-    left: -24%; 
+    left: -24%;
     top: 43px;
     background: #fff;
     border: 1px solid #222;

@@ -17,19 +17,19 @@ export default function Header() {
                     <h2 className="ir_so">메인 메뉴</h2>
                     <ul>
                         <li>
-                            <a href="#">회원가입</a>
+                            <Link to="/">HOME</Link>
                         </li>
                         <li>
-                            <a href="#">댓글</a>
+                            <Link to="/login">Login</Link>
                         </li>
                         <li>
-                            <a href="#">게시판</a>
+                            <Link to="/join">Join</Link>
                         </li>
                         <li>
-                            <a href="#">블로그</a>
+                            <Link to="/view">View</Link>
                         </li>
                         <li>
-                            <a href="#">퀴즈</a>
+                            <Link to="/write">Write</Link>
                         </li>
                     </ul>
                 </nav>
@@ -40,7 +40,7 @@ export default function Header() {
                         alt=""
                     />
                     <span className="ir_so">회원 정보 영역</span>
-                    <Link to="/login">Login</Link>
+                    <Link to="/mypages">MyPage</Link>
                 </div>
             </header>
         </>

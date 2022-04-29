@@ -1,0 +1,262 @@
+/* join */
+/* 회원 가입 : join-type */
+.join-type {
+    padding: 200px 0;
+}
+
+.member-form {
+    max-width: 665px;
+    border: 1px solid #dedede;
+    background: #fff;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.member-form02 {
+    max-width: 665px;
+    /* height: 500px; */
+    /* border: 1px solid #dedede; */
+    /* background: #fff; */
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.member-form h3 {
+    font-weight: 500;
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.member-form .list li {
+    font-size: 14px;
+    line-height: 1.6;
+    position: relative;
+    padding-left: 10px;
+}
+
+.member-form .list li::before {
+    content: " ";
+    width: 3px;
+    height: 3px;
+    background: #000;
+    position: absolute;
+    left: 0;
+    top: 7px;
+    border-radius: 100%;
+}
+
+.member-form .tag {
+    font-size: 16px;
+    text-decoration: underline;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+
+.member-form2 li {
+    font-size: 14px;
+    position: relative;
+    padding-left: 10px;
+}
+
+.member-form2 li::before {
+    content: " ";
+    width: 3px;
+    height: 3px;
+    background: #000;
+    position: absolute;
+    left: 0;
+    top: 7px;
+    border-radius: 100%;
+}
+.member-form2 h4 {
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: underline;
+}
+.member-form .member-form2 .list {
+    background-color: #f5f5f5;
+    padding: 20px;
+}
+.member-form .member-form2 .check {
+    display: block;
+    margin-top: 10px;
+}
+#joinCheck {
+    margin-right: 5px;
+}
+
+form {
+    margin-top: 30px;
+}
+
+.join-box label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.join-box input {
+    border: 1px solid #dfdfdf;
+    width: 100%;
+    height: 50px;
+    padding: 15px;
+    margin-bottom: 30px;
+}
+
+.join-box .modify input {
+    background: #f0efef;
+    border: 1px solid #000;
+}
+.join-box .overlap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.join-box .overlap label {
+    width: 100%;
+}
+.join-box .overlap input {
+    width: 70%;
+    margin-bottom: 0px;
+}
+.join-box .overlap .test {
+    width: 26%;
+    background: #f5f5f5;
+    display: inline-block;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+}
+.join-box .overlap .comment {
+    width: 100%;
+    font-size: 14px;
+    padding-top: 10px;
+    color: #af3029;
+    margin-bottom: 20px;
+}
+.join-box .overpass input {
+    margin-bottom: 0px;
+}
+.join-box .overpass .comment {
+    width: 100%;
+    font-size: 14px;
+    padding-top: 10px;
+    color: #af3029;
+    margin-bottom: 20px;
+}
+.join-info {
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+.join-info li {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.join-info li strong {
+    width: 20%;
+    font-weight: normal;
+    background: #eee;
+    margin-bottom: 10px;
+    padding: 10px 0;
+    text-align: center;
+}
+.join-info li span {
+    width: 78%;
+    display: inline-block;
+    padding: 10px 0;
+    border-bottom: 1px solid #c6c6c6;
+    margin-bottom: 10px;
+}
+.join-btn {
+    display: flex;
+    justify-content: space-between;
+}
+.join-btn a {
+    display: inline-block;
+    text-align: center;
+    font-size: 16px;
+    background: #eee;
+    padding: 15px;
+    box-sizing: border-box;
+    width: 49%;
+    transition: all 0.3s;
+}
+.join-btn a:hover {
+    box-shadow: inset 0 0 0 2px black;
+    background: #fff;
+}
+.join-submit {
+    /* font-size: 16px;
+    background: #f19036;
+    padding: 15px;
+    width: 100%;
+    display: block;
+    transition: all 0.3s;
+    cursor: pointer; */
+    display: block;
+    font-size: 15px;
+    background: #fe9124;
+    padding: 15px;
+    width: 100%;
+    transition: all 0.3s;
+    cursor: pointer;
+    border: #fff;
+    color: #fff;
+}
+
+.join-submit:hover {
+    /* box-shadow: inset 0 0 0 2px #000;
+    background: #333; */
+    background: #fff;
+    color: #fe9124;
+}
+
+#joinbtn {
+    /* color: #fff; */
+}
+
+.join-checkbox {
+    display: flex;
+    margin-left: 10px;
+}
+
+.join-checkbox input {
+    width: 30px;
+    height: 30px;
+    margin: 5px 10px 25px 26px;
+}
+
+.join-checkbox span {
+    width: 121px;
+    height: 21px;
+    font-family: "GmarketSans";
+    color: #a4938a;
+    margin: 9px 0 30px 0;
+}
+
+.join-intro {
+    height: 200px;
+    border: 1px solid #dfdfdf;
+    margin-bottom: 100px;
+    position: relative;
+    text-align: center;
+}
+.join-intro .intro {
+    padding-top: 20px;
+}
+.join-intro .face {
+    width: 180px;
+    height: 180px;
+    margin: 50px auto 0 auto;
+    border-radius: 50%;
+    background: #b7b7b7;
+}
+.join-intro svg {
+    width: 100%;
+    height: 100%;
+}
+.join-intro .change {
+    padding-top: 10px;
+}

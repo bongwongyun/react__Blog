@@ -11,7 +11,7 @@ export default function Login() {
                 </h2>
                 <div className="member-form02">
                     <h3 className="ir_so">로그인</h3>
-                    <form action="loginSave.php" name="join" method="post">
+                    <form name="join" method="post">
                         <fieldset>
                             <legend className="ir_so">로그인 입력폼</legend>
                             <div className="join-box">
